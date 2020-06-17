@@ -1,11 +1,11 @@
 # NSMIv2 Mapping Aid
-This code powers a tool to help folks create mappings between [NSMIv2](http://taxonomy.legal/) and existing taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`, you can use to help find matches between any set of taxonomy names and descriptions and those in in NSMIv2.
+This code powers a tool to help folks create mappings between [NSMIv2](http://taxonomy.legal/) (as it existed on 2020-06-17) and existing taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`, you can use to help find matches between any set of taxonomy names and descriptions and those in in NSMIv2.
 
-## Here's how it works. 
+## Here's how to use it 
 
 - Open this [NISMv2 Mapping Starter Sheet](https://docs.google.com/spreadsheets/d/1sZyeCKZ38oz8P22b8szpBcNYPuPEsoArRfgqU8mqo-A/edit) in Google Docs.
 
-- Make a copy of the sheet, placing it in your own Google account. You need to do this because the function is only visible to this sheet. 
+- Make a copy of the sheet, placing it in your own Google account. You need to do this because the custom function is only visible to this sheet. 
 
 ![copy](https://learned-hands.github.io/mapping_aid/images/step-2.gif)
 
@@ -25,6 +25,11 @@ This code powers a tool to help folks create mappings between [NSMIv2](http://ta
 
 ![function with argument](https://learned-hands.github.io/mapping_aid/images/step2.gif)
 
-To be clear, this function only makes a guess. You'll likely have to go through and clean things up, but it's better than starting from scratch.  
+To be clear, this function only makes a guess. You'll likely have to go through and clean things up, but it's better than starting from scratch. Have fun.
 
-Have fun.  
+## Here's how it works
+
+This is basicly a repurposing of [text2label](https://github.com/colarusso/text2label). That is, I just created a Google Apps Script that loads in the code from a [text2label tranining session](https://colarusso.github.io/text2label/) on NSMI's [names and descriptions](https://learned-hands.github.io/mapping_aid/csv/NSMIv2_titles-codes.csv). 
+
+
+
