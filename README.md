@@ -19,7 +19,7 @@ Use the NSMI_MATCH() function to get NSMIv2 codes for a given column by using th
 
 ![function default](https://learned-hands.github.io/mapping_aid/images/step1.gif)
 
-If you want, you can add an argument after the cell ID to get a URL that links to a description of the NSMIv2 code.
+If you want, you can add an argument after the cell ID to get a URL that links to a description of the NSMIv2 code. Just add a 1 after the cell ID, (e.g., "=NSMI_MACTH(A2,1)").
 
 ![function with argument](https://learned-hands.github.io/mapping_aid/images/step2.gif)
 
