@@ -1,5 +1,5 @@
 # NSMIv2 Mapping Aid
-This code powers a tool to help folks create mappings between NMSIv2 and existing taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`, you can use to help find matches between your own taxonomy names and descriptions.
+This code powers a tool to help folks create mappings between [NSMIv2](http://taxonomy.legal/) and existing taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`, you can use to help find matches between any set of taxonomy names and descriptions and those in in NSMIv2.
 
 ## Here's how it works. 
 
@@ -17,7 +17,7 @@ This code powers a tool to help folks create mappings between NMSIv2 and existin
 
 ![input](https://learned-hands.github.io/mapping_aid/images/step0.gif)
 
-- Use the NSMI_MATCH() function to get NSMIv2 codes for a given column by using the function for a single cell then adding it to the cells for an entire column. All you have to do is type `=NSMI_MACTH(A2)`, where `A2` is the cell ID for the content you want to match.
+- Use the NSMI_MATCH() function to get NSMIv2 codes for a given column by using the function for a single cell then adding it to the cells for an entire column. All you have to do is type `=NSMI_MACTH(A2)`, where `A2` is the cell ID for the content you want to match. You can try to match on item names or descriptions. Assuming you have decriptive names like [NSMIv2](http://taxonomy.legal/), those are probably your best bet. 
 
 ![function default](https://learned-hands.github.io/mapping_aid/images/step1.gif)
 
