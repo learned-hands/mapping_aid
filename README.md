@@ -1,5 +1,5 @@
 # NSMIv2 Mapping Aid
-This code powers a tool to help folks create mappings between [NSMIv2](http://taxonomy.legal/) (as it existed on 2020-06-17) and existing taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`. You can use this function to find possible matches between a set of taxonomy names/descriptions and those in NSMIv2.
+This code powers a tool to help folks create mappings between [NSMIv2](http://taxonomy.legal/) (as it existed on 2020-06-17) and other taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`. You can use this function to find possible matches between a set of taxonomy names/descriptions and those in NSMIv2.
 
 To be clear, this function only makes a guess. You'll have to go through and clean things up (likely moving up or down the NSMI's hierarchy to find the right label), but it's better than starting from scratch, esp. when you consider that NSMIv2 has hundreds of entries. 
 
