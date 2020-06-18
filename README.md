@@ -1,6 +1,8 @@
 # NSMIv2 Mapping Aid
 This code powers a tool to help folks create mappings between [NSMIv2](http://taxonomy.legal/) (as it existed on 2020-06-17) and existing taxonomies. It fuels a custom Google Sheets function, `NSMI_MATCH()`. You can use this function to find possible matches between any set of taxonomy names and descriptions and those in NSMIv2.
 
+To be clear, this function only makes a guess. You'll have to go through and clean things up, but it's better than starting from scratch, esp. when you consider that NSMIv2 has hundreds of entries. 
+
 ## Here's how to use it 
 
 - Open this [NSMIv2 Mapping Starter Sheet](https://docs.google.com/spreadsheets/d/1sZyeCKZ38oz8P22b8szpBcNYPuPEsoArRfgqU8mqo-A/edit) in Google Docs.
@@ -24,8 +26,6 @@ This code powers a tool to help folks create mappings between [NSMIv2](http://ta
 - If you want, you can add an argument after the cell ID to get a URL that links to a description of the NSMIv2 code. Just add a 1 after the cell ID, (e.g., `=NSMI_MACTH(A2,1)`).
 
 ![function with argument](https://learned-hands.github.io/mapping_aid/images/step2.gif)
-
-To be clear, this function only makes a guess. You'll likely have to go through and clean things up, but it's better than starting from scratch. Have fun.
 
 ## Here's how it works
 
