@@ -33,3 +33,5 @@ This is just a repackaging of [text2label](https://github.com/colarusso/text2lab
 
 ![apps script](https://learned-hands.github.io/mapping_aid/images/apps_script.png)
 
+
+
