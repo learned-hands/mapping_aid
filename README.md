@@ -23,7 +23,7 @@ To be clear, this function only makes a guess. You'll have to go through and cle
 
 ![function default](https://learned-hands.github.io/mapping_aid/images/step1.gif)
 
-- If you want, you can add an argument after the cell ID to get a URL that links to a description of the NSMIv2 code. Just add a 1 after the cell ID, (e.g., `=NSMI_MACTH(A2,1)`).
+- If you want, you can add an argument after the cell ID to get a URL that links to a description of the NSMIv2 code. Just add a comma and a 1 after the cell ID, (e.g., `=NSMI_MACTH(A2,1)`).
 
 ![function with argument](https://learned-hands.github.io/mapping_aid/images/step2.gif)
 
