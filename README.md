@@ -29,7 +29,7 @@ To be clear, this function only makes a guess. You'll have to go through and cle
 
 ## Here's how it works
 
-This is just a repackaging of [text2label](https://github.com/colarusso/text2label). That is, I created [a Google Apps Script](https://github.com/learned-hands/mapping_aid/blob/master/js/scripts.gs) that loads in the code from a [text2label tranining session](https://colarusso.github.io/text2label/). That session made use of these [NSMI names and descriptions](https://learned-hands.github.io/mapping_aid/csv/NSMIv2_titles-codes.csv). 
+This is just a repackaging of [text2label](https://github.com/colarusso/text2label). That is, I created [a Google Apps Script](https://github.com/learned-hands/mapping_aid/blob/master/js/scripts.gs) that loads in the code from a [text2label tranining session](https://colarusso.github.io/text2label/). That session made use of [these NSMI names and descriptions](https://learned-hands.github.io/mapping_aid/csv/NSMIv2_titles-codes.csv). 
 
 ![apps script](https://learned-hands.github.io/mapping_aid/images/apps_script.png)
 
